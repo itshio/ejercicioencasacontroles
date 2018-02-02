@@ -9,6 +9,7 @@ import android.widget.CheckBox;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -102,9 +103,7 @@ public class MainActivity extends AppCompatActivity {
         String tipomasa= spmasa.getSelectedItem().toString();
 
         if(tipomasa.equals("Elige Masa")){
-            
-
-
+            Toast.makeText(this,"Debes selccionar una masa",Toast.LENGTH_LONG).show();
 
         }
 
