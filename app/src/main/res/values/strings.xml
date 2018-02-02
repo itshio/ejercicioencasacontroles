@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ejercicioencasacontroles</string>
+    <string name="txtmasa">Elige masa</string>
+    <string name="txtingredientes">Elige ingredientes</string>
+    <string name="txttamaño">¿Que tamaño desea?</string>
+    <string name="elegir">Elegir</string>
+    <string name="cb_ternera">Ternera</string>
+    <string name="cb_pollo">Pollo</string>
+    <string name="cb_cebolla">Cebolla</string>
+    <string name="cb_bacon">Bacon</string>
+    <string name="cb_champiñones">Champiñones</string>
+    <string name="cb_peperoni">Peperoni</string>
+    <string name="tipo_masa">Masa elegida</string>
+    <string name="tipo_ingredientes">Ingredientes elegidos</string>
+    <string name="tipo_tamaño">Tamaño elegido</string>
+    <string name="pequeña">Pequeña</string>
+    <string name="mediana">Mediana</string>
+    <string name="grande">Grande</string>
+</resources>
