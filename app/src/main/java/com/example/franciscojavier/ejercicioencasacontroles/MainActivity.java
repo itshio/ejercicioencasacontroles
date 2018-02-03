@@ -158,6 +158,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         txt_ingredientes.setText(ingredientes);
+        btntamano.setEnabled(true);
 
 
     }
@@ -183,16 +184,9 @@ public class MainActivity extends AppCompatActivity {
 
         }else{
 
-            RadioButton radiopequeña= (RadioButton)findViewById(R.id.radiobt_pequeña);
+            RadioButton radiopequeña= (RadioButton)findViewById(idradio);
             String textradiopequeña= radiopequeña.getText().toString();
-
-            RadioButton radiomediana= (RadioButton)findViewById(R.id.radiobt_mediana);
-            String textradiomediana= radiomediana.getText().toString();
-
-            RadioButton radiogrande= (RadioButton)findViewById(R.id.radiobtn_grande);
-            String taxtradiogrande= radiogrande.getText().toString();
-
-
+            txt_tamano.setText(textradiopequeña);
 
 
         }
