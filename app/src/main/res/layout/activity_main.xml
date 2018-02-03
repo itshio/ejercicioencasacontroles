@@ -26,6 +26,7 @@
                     android:id="@+id/txt_masa"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="@dimen/d25"
                     android:text="@string/txtmasa"
                     />
 
@@ -45,6 +46,7 @@
                     android:id="@+id/txt_masa_inferior"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="@dimen/d20"
                     android:text="@string/tipo_masa" />
             </LinearLayout>
 
@@ -57,6 +59,7 @@
                     android:id="@+id/txt_ingredientes"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="@dimen/d25"
                     android:text="@string/txtingredientes" />
 
                 <CheckBox
@@ -107,6 +110,7 @@
                     android:id="@+id/txt_ingredientes_inferior"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="@dimen/d20"
                     android:text="@string/tipo_ingredientes" />
             </LinearLayout>
 
@@ -119,6 +123,7 @@
                     android:id="@+id/txt_tamano"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:textSize="@dimen/d25"
                     android:text="@string/txttamaño" />
 
                 <RadioGroup
@@ -161,7 +166,8 @@
                     android:id="@+id/txt_tamano_inferior"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="TextView" />
+                    android:textSize="@dimen/d20"
+                    android:text="@string/tipo_tamaño" />
 
             </LinearLayout>
         </LinearLayout>
