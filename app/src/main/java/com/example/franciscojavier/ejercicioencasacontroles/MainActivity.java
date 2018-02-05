@@ -125,11 +125,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickingredientes (View view){
 
+
+
         String ingredientes="";
 
         if (cbbacon.isChecked()){
 
-            ingredientes+="Bacon, ";
+            ingredientes+=cbbacon.getText().toString()+"";
         }
 
         if (cbternera.isChecked()){
